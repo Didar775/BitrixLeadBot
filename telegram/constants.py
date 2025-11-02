@@ -1,6 +1,6 @@
-# ───────────────────────────────
+
 # System messages
-# ───────────────────────────────
+
 START_MSG = (
     "👋 Hello! I’m your assistant bot for Bitrix24.\n\n"
     "Use the command /check_leads to get a list of leads "
@@ -13,16 +13,16 @@ ERROR_MSG = "⚠️ Something went wrong. Please try again later."
 LEAD_NOT_FOUND_MSG = "⚠️ Lead not found in cache. Please refresh leads."
 BLOCK_MSG = '❗ Please use bot commands or buttons only.'
 
-# ───────────────────────────────
+
 # Actions / Buttons
-# ───────────────────────────────
+
 BTN_CALLED = "✅ Called"
 BTN_WRITTEN = "💬 Wrote"
 BTN_POSTPONE = "⏳ Postpone for 2 hours"
 
-# ───────────────────────────────
+
 # Templates
-# ───────────────────────────────
+
 LEAD_INFO_TEMPLATE = (
     "📋 <b>Lead #{id}</b>\n"
     "👤 {name}\n"
@@ -30,9 +30,9 @@ LEAD_INFO_TEMPLATE = (
     "🕒 Created: {created_time}"
 )
 
-# ───────────────────────────────
+
 # Action confirmations
-# ───────────────────────────────
+
 COMMENT_CALLED_MSG = "✅ Client called"
 COMMENT_WRITTEN_MSG = " Message sent to client"
 

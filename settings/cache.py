@@ -1,6 +1,6 @@
 # settings/cache.py
 import json
-import redis.asyncio as redis  # ✅ modern async redis
+import redis.asyncio as redis
 from .variables import REDIS_URL
 
 import json
