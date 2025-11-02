@@ -19,6 +19,15 @@ The admin can interact with leads (call, write, postpone) directly from Telegram
 
 ---
 
+### Demo Video
+
+<video width="600" controls>
+  <source src="https://youtu.be/vWcMu829Nvo" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 ## Requirements
 
 - Python 3.13+
