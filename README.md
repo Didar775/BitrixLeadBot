@@ -77,6 +77,8 @@ CELERY_BROKER_URL=redis://localhost:6379/0
 ### 1. Start the bot and Redis (manual / on-demand mode)
 
 ```bash
+chmod +x start.sh
+
 ./start.sh
 
 ```
@@ -92,6 +94,8 @@ The bot will only respond when you interact with it.
 
 ## Start Celery Worker & Beat (automatic / scheduled mode)
 ```bash
+chmod +x start-celery.sh
+
 ./start-celery.sh
 
 ```
